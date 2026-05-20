@@ -1,5 +1,5 @@
 class Conta:
-    def __init__(self, nome, saldo, ):
+    def __init__(self, nome, saldo):
         self.nome = nome
         self.saldo = saldo
     def saca(self, valor):
