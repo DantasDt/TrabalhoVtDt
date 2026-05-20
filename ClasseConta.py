@@ -1,8 +1,7 @@
 class Conta:
-    def __init__(self, nome, saldo, numero ):
+    def __init__(self, nome, saldo, ):
         self.nome = nome
         self.saldo = saldo
-        self.numero = numero
     def saca(self, valor):
        if 0 < valor <= self.saldo:
            self.saldo -= valor
