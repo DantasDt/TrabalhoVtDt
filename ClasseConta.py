@@ -17,4 +17,4 @@ class Conta:
         else:
             print("Não é possível depositar esse valor!")
     def calcularend(self):
-        print("Rendimento mensal: ", self.saldo * 0.1)
+        return "Rendimento mensal: " self.saldo * 0.1
